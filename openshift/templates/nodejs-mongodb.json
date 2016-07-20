@@ -83,7 +83,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "nodejs-4-rhel7:latest"
+              "name": "registry.access.redhat.com/rhscl/nodejs-4-rhel7:latest"
             },
             "env":  [
               {
@@ -271,7 +271,7 @@
               "from": {
                 "kind": "ImageStreamTag",
                 "namespace": "${NAMESPACE}",
-                "name": "mongodb-32-rhel7:latest"
+                "name": "registry.access.redhat.com/rhscl/mongodb-32-rhel7:latest"
               }
             }
           },
