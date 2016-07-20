@@ -83,7 +83,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "nodejs:4"
+              "name": "nodejs-4-rhel7:latest"
             },
             "env":  [
               {
@@ -271,7 +271,7 @@
               "from": {
                 "kind": "ImageStreamTag",
                 "namespace": "${NAMESPACE}",
-                "name": "mongodb:3.2"
+                "name": "mongodb-32-rhel7:latest"
               }
             }
           },
@@ -392,7 +392,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/openshift/nodejs-ex.git"
+      "value": "https://github.com/joevin22/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
