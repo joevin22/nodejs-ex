@@ -75,6 +75,9 @@
             "uri": "${SOURCE_REPOSITORY_URL}",
             "ref": "${SOURCE_REPOSITORY_REF}"
           },
+          "sourceSecret": {
+            "name": "basicsecret"
+          },
           "contextDir": "${CONTEXT_DIR}"
         },
         "strategy": {
